@@ -4,9 +4,9 @@
   <metadata>
     <id>Notepadplusplus.Settings</id>
     <title>Notepad++ Settings Installation</title>
-    <version>1.0.0.20141027</version>
+    <version>2022.09.25</version>
     <authors>Jason Capriotti</authors>
-    <owners>Jason Capriotti</owners>
+    <owners>Sylvain Lavoie</owners>
     <summary>Allows Notepad++ settings to be installed from a provided URL.</summary>
     <description>Allows Notepad++ settings to be installed from a provided URL. 
 		
@@ -34,6 +34,7 @@ To get your theme copied, you must drop your current theme file into the directo
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/JCapriotti/chocolatey/master/Notepadplusplus.Settings/Notepadplusplus.Settings.ico</iconUrl>
     <releaseNotes>
+    20220925 - Fail to access stylers
 		20141027 - Had a bug due to a rogue space, cleaning up error messaging.
 		20141015 - Fixing issue with incorrect Program Files path on 32-bit systems. 
 	</releaseNotes>
